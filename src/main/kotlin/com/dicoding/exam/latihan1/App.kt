@@ -17,24 +17,14 @@ package com.dicoding.exam.latihan1
  *  Sesuaikan fungsi di bawah ini dengan kode untuk mengecek apakah parameter number
  *  merupakan angka genap
  */
-fun isEvenNumber(number: Int): Boolean {
-    if (number % 2 == 0) {
-        return true
-    }
-    return false
-}
+fun isEvenNumber(number: Int)= number%2==0
 
 /**
  *  TODO 2
  *  Sesuaikan fungsi di bawah ini dengan kode untuk mengecek apakah parameter number
  *  lebih dari 5
  */
-fun moreThanFive(number: Int): Boolean {
-    if(number > 5){
-        return true
-    }
-    return false
-}
+fun moreThanFive(number: Int)= number>5
 
 
 
